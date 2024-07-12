@@ -22,6 +22,8 @@ const ProductList = () => {
       const ratings = searchParams.getAll("rating");
       const colors = searchParams.getAll("color");
 
+      console.log(ratings)
+
       if (brands.length > 0) {
         filtered = filtered.filter((product) => brands.includes(product.brand));
       }
