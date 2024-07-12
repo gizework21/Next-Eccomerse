@@ -2,7 +2,7 @@
 import React from "react";
 import { FaRegHeart, FaStar } from "react-icons/fa";
 import { IoShareSocialSharp } from "react-icons/io5";
-import { Product } from "./types";
+import { Product } from "./Datatypes";
 
 interface ProductCardProps {
   product: Product;

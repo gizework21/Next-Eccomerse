@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { products } from "@/app/data/productsData";
-import ProductCard from "./ProductCard";
+import ProductCard from "./productCardList";
 import Pagination from "./Pagination";
 import { useSearchParams } from "next/navigation";
 
