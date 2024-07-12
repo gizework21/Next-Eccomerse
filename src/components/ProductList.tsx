@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { products } from "@/app/data/productsData";
-import ProductCard from "./productCardList";
+import ProductCardList from "./productCardList";
 import Pagination from "./Pagination";
 import { useSearchParams } from "next/navigation";
 
@@ -63,7 +63,7 @@ const ProductList = () => {
         <>
           <div className="flex flex-wrap justify-between gap-y-6">
             {currentProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCardList key={product.id} product={product} />
             ))}
           </div>
 
