@@ -24,7 +24,7 @@ const Filter = () => {
   const ratings = [5, 4, 3, 2, 1];
 
   // Filter Handler Function
-  const handleFilters = (filterType: string, value: string | number) => {
+  const handleFilterProducts = (filterType: string, value: string | number) => {
     const params = new URLSearchParams(searchParams.toString());
     const queryKey = filterType.toLowerCase();
 
@@ -72,7 +72,7 @@ const Filter = () => {
                   type="checkbox"
                   id={brand}
                   className="h-4 w-4"
-                  onChange={() => handleFilters("brand", brand)}
+                  onChange={() => handleFilterProducts("brand", brand)}
                 />
               </li>
             ))}
@@ -102,7 +102,7 @@ const Filter = () => {
                   type="checkbox"
                   id={`rating-${rating}`}
                   className="w-4 h-4"
-                  onChange={() => handleFilters("rating", rating)}
+                  onChange={() => handleFilterProducts("rating", rating)}
                 />
               </li>
             ))}
@@ -133,7 +133,7 @@ const Filter = () => {
                   type="checkbox"
                   id={color}
                   className="w-4 h-4"
-                  onChange={() => handleFilters("color", color)}
+                  onChange={() => handleFilterProducts("color", color)}
                 />
               </li>
             ))}
