@@ -8,10 +8,11 @@ import { useSearchParams } from "next/navigation";
 
 const ProductList = () => {
   const searchParams = useSearchParams();
-
   const [currentPage, setCurrentPage] = useState(1);
   const [filteredProducts, setFilteredProducts] = useState(products);
   const productsPerPage = 8;
+
+
 
   useEffect(() => {
     const filterProducts = () => {
