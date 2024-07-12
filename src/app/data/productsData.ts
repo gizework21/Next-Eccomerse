@@ -3,23 +3,23 @@ import { product } from "./Datatypes";
 export const products: product[] = [
   {
     id: 1,
-    name: "Apple iPhone 15 Pro 128GB",
-    price: 400,
-    originalPrice: 500,
+    name: "IPhone 15 Pro 256GB Black Titanium",
+    price: 500,
+    originalPrice: 600,
     discount: true,
     rating: 0,
     image:
-      "https://images.unsplash.com/photo-1695048064926-4da0dd8259d1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGlwaG9uZSUyMDE1fGVufDB8fDB8fHww",
+      "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-blacktitanium?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80ZW95OFpIcWQ1d0NuTUppaGxOVkdhQWlCQmV2WTA2cncybDF2YzFnKzI0S2prMCtUNWwzYWR0UVU3TWVsbEdUeXRjODhrWk5XcFl2eGdtMU93TW5UemNnaGZTejMxa0hnUE1YYTBGeVJZdVBBPT0=&traceId=1",
     brand: "Apple",
     color: "black",
   },
   {
     id: 2,
-    name: "Laptop S21 128GB",
-    price: 400,
+    name: "HP Omen 16-K0033 Gaming Core™ i9-12900H 1TB SSD 16GB",
+    price: 800,
     rating: 2,
     image:
-      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wfGVufDB8fDB8fHww",
+      "https://techbuyz.co.ke/wp-content/uploads/2023/02/Omen-2022.jpg",
     brand: "Tecno",
     color: "gold",
   },
@@ -29,7 +29,7 @@ export const products: product[] = [
     price: 600,
     rating: 3,
     image:
-      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGVhZHNldHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://cdn.mos.cms.futurecdn.net/zsKB9MX9rSBdNhJ4De9GmK-970-80.jpg.webp",
     brand: "Huawei",
     color: "purple",
   },
@@ -39,9 +39,9 @@ export const products: product[] = [
     price: 300,
     rating: 4,
     image:
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBob25lfGVufDB8fDB8fHww",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Xiaomi_Redmi_Note_10_Pro_%28Global%29_front.jpg/220px-Xiaomi_Redmi_Note_10_Pro_%28Global%29_front.jpg",
     brand: "Xiaomi",
-    color: "gold",
+    color: "black",
   },
   {
     id: 5,
@@ -49,27 +49,27 @@ export const products: product[] = [
     price: 350,
     rating: 5,
     image:
-      "https://images.unsplash.com/photo-1604418620232-6fa9e4be7616?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvbmUlMjByZWRtaXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://fdn.gsmarena.com/imgroot/reviews/21/realme-8-pro/lifestyle/-1200w5/gsmarena_006.jpg",
     brand: "Realme",
     color: "blue",
   },
   {
     id: 6,
-    name: "Apple iPhone 15 Pro 128GB",
-    price: 500,
+    name: "IPhone 15 Pro 256GB Black Titanium",
+    price: 600,
     rating: 0,
     image:
-      "https://images.unsplash.com/photo-1695048064926-4da0dd8259d1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGlwaG9uZSUyMDE1fGVufDB8fDB8fHww",
+      "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-blacktitanium?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80ZW95OFpIcWQ1d0NuTUppaGxOVkdhQWlCQmV2WTA2cncybDF2YzFnKzI0S2prMCtUNWwzYWR0UVU3TWVsbEdUeXRjODhrWk5XcFl2eGdtMU93TW5UemNnaGZTejMxa0hnUE1YYTBGeVJZdVBBPT0=&traceId=1",
     brand: "Apple",
     color: "gold",
   },
   {
     id: 7,
-    name: "Laptop S21 128GB",
-    price: 400,
+    name: "HP Omen 16-K0033 Gaming Core™ i9-12900H 1TB SSD 16GB",
+    price: 800,
     rating: 2,
     image:
-      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wfGVufDB8fDB8fHww",
+      "https://techbuyz.co.ke/wp-content/uploads/2023/02/Omen-2022.jpg",
     brand: "Tecno",
     color: "blue",
   },
@@ -81,7 +81,7 @@ export const products: product[] = [
     discount: true,
     rating: 3,
     image:
-      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGVhZHNldHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://cdn.mos.cms.futurecdn.net/zsKB9MX9rSBdNhJ4De9GmK-970-80.jpg.webp",
     brand: "Huawei",
     color: "",
   },
@@ -91,7 +91,7 @@ export const products: product[] = [
     price: 300,
     rating: 4,
     image:
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBob25lfGVufDB8fDB8fHww",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Xiaomi_Redmi_Note_10_Pro_%28Global%29_front.jpg/220px-Xiaomi_Redmi_Note_10_Pro_%28Global%29_front.jpg",
     brand: "Xiaomi",
     color: "purple",
   },
@@ -101,27 +101,27 @@ export const products: product[] = [
     price: 350,
     rating: 5,
     image:
-      "https://images.unsplash.com/photo-1604418620232-6fa9e4be7616?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvbmUlMjByZWRtaXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://fdn.gsmarena.com/imgroot/reviews/21/realme-8-pro/lifestyle/-1200w5/gsmarena_006.jpg",
     brand: "Realme",
     color: "blue",
   },
   {
     id: 11,
-    name: "Apple iPhone 15 Pro 128GB",
+    name: "IPhone 15 Pro 256GB Black Titanium",
     price: 500,
     rating: 0,
     image:
-      "https://images.unsplash.com/photo-1695048064926-4da0dd8259d1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGlwaG9uZSUyMDE1fGVufDB8fDB8fHww",
+      "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-blacktitanium?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80ZW95OFpIcWQ1d0NuTUppaGxOVkdhQWlCQmV2WTA2cncybDF2YzFnKzI0S2prMCtUNWwzYWR0UVU3TWVsbEdUeXRjODhrWk5XcFl2eGdtMU93TW5UemNnaGZTejMxa0hnUE1YYTBGeVJZdVBBPT0=&traceId=1",
     brand: "Apple",
     color: "gold",
   },
   {
     id: 12,
-    name: "Laptop S21 128GB",
+    name: "HP Omen 16-K0033 Gaming Core™ i9-12900H 1TB SSD 16GB",
     price: 400,
     rating: 2,
     image:
-      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wfGVufDB8fDB8fHww",
+      "https://techbuyz.co.ke/wp-content/uploads/2023/02/Omen-2022.jpg",
     brand: "Tecno",
     color: "gold",
   },
@@ -131,7 +131,7 @@ export const products: product[] = [
     price: 600,
     rating: 3,
     image:
-      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGVhZHNldHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://cdn.mos.cms.futurecdn.net/zsKB9MX9rSBdNhJ4De9GmK-970-80.jpg.webp",
     brand: "Huawei",
     color: "",
   },
@@ -141,7 +141,7 @@ export const products: product[] = [
     price: 300,
     rating: 4,
     image:
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBob25lfGVufDB8fDB8fHww",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Xiaomi_Redmi_Note_10_Pro_%28Global%29_front.jpg/220px-Xiaomi_Redmi_Note_10_Pro_%28Global%29_front.jpg",
     brand: "Xiaomi",
     color: "blue",
   },
@@ -151,17 +151,17 @@ export const products: product[] = [
     price: 350,
     rating: 5,
     image:
-      "https://images.unsplash.com/photo-1604418620232-6fa9e4be7616?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvbmUlMjByZWRtaXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://fdn.gsmarena.com/imgroot/reviews/21/realme-8-pro/lifestyle/-1200w5/gsmarena_006.jpg",
     brand: "Realme",
     color: "purple",
   },
   {
     id: 16,
-    name: "Apple iPhone 15 Pro 128GB",
+    name: "IPhone 15 Pro 256GB Black Titanium",
     price: 500,
     rating: 0,
     image:
-      "https://images.unsplash.com/photo-1695048064926-4da0dd8259d1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGlwaG9uZSUyMDE1fGVufDB8fDB8fHww",
+      "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-blacktitanium?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80ZW95OFpIcWQ1d0NuTUppaGxOVkdhQWlCQmV2WTA2cncybDF2YzFnKzI0S2prMCtUNWwzYWR0UVU3TWVsbEdUeXRjODhrWk5XcFl2eGdtMU93TW5UemNnaGZTejMxa0hnUE1YYTBGeVJZdVBBPT0=&traceId=1",
     brand: "Apple",
     color: "black",
   },
