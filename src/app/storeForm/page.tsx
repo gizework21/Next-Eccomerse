@@ -300,7 +300,7 @@ const EditStoreInformation = () => {
         <div className="flex justify-start space-x-4">
           <button
             type="submit"
-            className="px-4 py-2 bg-[yellow-500] text-white rounded-md shadow-sm hover:bg-yellow-600"
+            className="px-4 py-2 bg-yellow-500 text-white rounded-md shadow-sm hover:bg-yellow-600"
           >
             Save changes
           </button>

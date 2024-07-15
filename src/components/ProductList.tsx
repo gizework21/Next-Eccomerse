@@ -5,14 +5,14 @@ import { products } from "@/app/data/productsData";
 import ProductCardList from "./productCardList";
 import Pagination from "./Pagination";
 import { useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 const ProductList = () => {
   const searchParams = useSearchParams();
   const [currentPage, setCurrentPage] = useState(1);
   const [filteredProducts, setFilteredProducts] = useState(products);
   const productsPerPage = 6;
-
-
+  const router = useRouter();
 
   useEffect(() => {
     const filterProducts = () => {
@@ -21,7 +21,6 @@ const ProductList = () => {
       const brands = searchParams.getAll("brand");
       const ratings = searchParams.getAll("rating");
       const colors = searchParams.getAll("color");
-
 
       if (brands.length > 0) {
         filtered = filtered.filter((product) => brands.includes(product.brand));
@@ -45,7 +44,7 @@ const ProductList = () => {
 
   const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
 
-  const handlePageChange = (page: number) => {
+  const handlePageChange = (page:any) => {
     setCurrentPage(page);
   };
 
@@ -54,8 +53,18 @@ const ProductList = () => {
     currentPage * productsPerPage
   );
 
+  const handleStoreProductClick = () => {
+    router.push("/storeForm");
+  };
+
   return (
     <div className="w-[80%]">
+      <button 
+        onClick={handleStoreProductClick} 
+        className="mb-4 px-4 py-2 bg-[#d7a022] text-white rounded-lg"
+      >
+        Store Product
+      </button>
       {filteredProducts.length === 0 ? (
         <p className="font-bold text-2xl flex items-center justify-center border border-black h-[90vh]">
           No product found.
